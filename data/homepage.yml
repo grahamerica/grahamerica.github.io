@@ -1,0 +1,98 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Graham."
+  //subtitle: "Aspiring Tech Entrepreneur"
+  description: "I'm CTO and co-founder at <a target='_blank' href='https://babylonmicrofarms.com/'>Babylon</a>, a vertical farming company based in Richmond, VA."
+  image:
+    alt: "Microfarm.jpg"
+    # x: "img/showcase/showcase.png"
+    x: '/img/fixed-background-2.png'
+    _2x: '/img/fixed-background-2.png'
+  imageMobile:
+    alt: "Microfarm.jpg"
+    x: "img/showcase/microfarm.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "./contact/"
+
+#   socialLinks:
+#     - icon: "linkedin"
+#       URL: ""
+
+#     - icon: "github"
+#       URL: ""
+
+#     - icon: "twitter"
+#       URL: """
+
+#     - icon: "youtube"
+#       URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+#     - icon: "instagram"
+#       URL: "https://www.instagram.com/teamradity/"
+
+#     - icon: "facebook"
+#       URL: "https://www.facebook.com/raditycom/"
+
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
+    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
+    good for all of you.
+    </p>
+    <p class="lead">
+    My area of focus lies in designing web and mobile products, user research as well as
+    leading of design & front-end teams. I enjoy designing and coding the UI as much as
+    talking with users to iterate and improve the experiences that reach business goals.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: ""
+  image:
+    x: "img/who-am-i/rsz_1linobg.png"
+    _2x: "img/who-am-i/linobg2.png"
+
+# # education
+# education:
+#   enable: false
+#   title: "Education"
+#   items:
+#     - university: "University of Virginia"
+#       year: "2014-2018"
+#       degree: "Bachelor of Science (BS), Biomedical Engineering"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "6+ years experience leading technical teams, across mechanical, electrical, and software engineering. Experienced in Agtech, Medical Devices, and IoT. At Babylon, I have led Manufacturing, Field service, and teams of up to 10 engineers to develop and launch a highly automated vertical farming system, powered by remote management software. Notable achievements at Babylon include UL certification, acquiring and leading $2M+ in competitive research grants from NSF and other agencies, and being listed on Forbes 30 Under 30."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/graham-smith-a69572130/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "CTO and Co-founder"
+      company: "Babylon Microfarms"
+      duration: "2017 - Current"
+
+    - title: "Founder"
+      company: "Orthotrac"
+      duration: "2015 - 2017"
+
+    - title: "Device Design Engineer"
+      company: "Upperline Health"
+      duration: "2016 - 2018"
+
