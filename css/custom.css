@@ -1,0 +1,225 @@
+.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+  }
+  
+  .box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+  }
+  
+  .box-simple {
+    min-height: 230px;
+  }
+  
+  .experience__title {
+    /* padding: 10px 20px; */
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .experience__date {
+    /* font-style: lead; */
+    /* padding: 10px 20px; */
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 35px;
+  }
+  
+  .experience__company {
+    display: inline-block;
+    color: var(--primary-accent);
+    /* border-bottom: solid 5px var(--primary-accent); */
+    line-height: 1.1;
+    margin-bottom: 35px;
+    margin-top: 5px;
+  
+    /* padding-top: 5px; */
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  
+  @media (max-width: 768px) {
+    .experience__company {
+      margin-bottom:10px;
+    }
+  }
+  
+  .showcase__container{
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100%;
+  /* border: solid green; */
+  /* flex-wrap: nowrap; */
+  }
+  
+  .showcase__text{
+    padding-right: 30px;
+    /* padding-top: 150px; */
+  
+    /* border: solid red; */
+  }
+  @media (min-width: 991px) {
+    .showcase__text {
+      padding-top: 160px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .showcase__text {
+      padding: 30px;
+      padding-top: 30px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .showcase__text {
+      padding: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+    }
+  }
+  
+  .showcase__image{
+    /* border: solid blue; */
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+  
+  @media (max-width: 991px) {
+    .showcase__image {
+      padding-left: 0px;
+      padding-top: 10px;
+      text-align: center;
+      height: 50%;
+      width: 50%;
+      /* margin-left: 25%; */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .showcase__image {
+      padding: 0px;
+      text-align: center;
+      height: 70%;
+      width: 70%;
+      margin-left: 15%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .showcase__image {
+  
+      height: 100%;
+      width: 100%;
+      margin-left: 0%;
+    }
+  }
+  
+  .about__image{
+    padding-right: 0px;
+    padding-left: 0px;
+    /* border: solid black; */
+    /* flex: 50%; */
+    /* border: solid purple; */
+  }
+  
+  @media (max-width: 991px) {
+    .about__image {
+      padding-left: 0px;
+      padding-top: 45px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about__image {
+      height: 60%;
+      width: 60%;
+      margin-left: 20%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .about__image {
+  
+      height: 70%;
+      width: 70%;
+      margin-left: 15%;
+    }
+  }
+  
+  @media (max-width: 470px) {
+    .about__image {
+  
+      height: 100%;
+      width: 100%;
+      margin-left: 0%;
+    }
+  }
+  
+  .about__text{
+    padding-right: 0px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    /* border: solid blue; */
+    /* align-self: center; */
+    /* flex: 50%; */
+    /* border: solid red; */
+  }
+  
+  @media (max-width: 991px) {
+    .about__text {
+      padding-left: 20px;
+      padding-top: 60px;
+      padding: bottom 20px;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about__text {
+      padding-right: 20px;
+    }
+  }
+  
+  .about__flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+  }
+  
+  /* .logo__container{
+    border: solid black;
+  } */
+  
+  .logo__style{
+    color: var(--primary-accent);
+    padding-top: 5px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 0px;
+    padding-top: 12px;
+    font-size: larger;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    /* segoe, trebuchet */
+  }
+  
+  .experience__text{
+    text-align: right;
+  }
+  
+  @media (max-width: 768px) {
+    .experience__text {
+      text-align: center;
+    }
+  }
