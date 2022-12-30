@@ -2,10 +2,15 @@
     <div class="container">
 
         {{ if isset .Site.Params "about_us" }}
-        <div class="col-md-4 col-sm-6">
-            <h4>{{ i18n "aboutUs" }}</h4>
+        <div class="col-md-6 col-sm-6">
+            <!-- <h4>{{ i18n "aboutUs" }}</h4> -->
 
             {{ .Site.Params.about_us | safeHTML }}
+
+            {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+               <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
+
+            {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
@@ -75,15 +80,16 @@ _________________________________________________________ -->
             {{ if isset .Site.Params "copyright" }}
             <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
             {{ end }}
-            <p class="pull-right">
-              {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
-              <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
+            <p class="pull-right"> -->
+              <!-- {{ i18n "templateBy" | markdownify }} <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+               Not removing this link is part of the licence conditions of the template. Thanks for understanding :)
 
               {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
             </p>
         </div>
     </div>
-</div> -->
+</div>  -->
+
 <!-- /#copyright -->
 
 <!-- *** COPYRIGHT END *** -->
